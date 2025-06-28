@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-astro-app",
+  "name": "blog",
   "main": "./dist/_worker.js/index.js",
   "compatibility_date": "2025-06-28",
   "compatibility_flags": ["nodejs_compat"],
