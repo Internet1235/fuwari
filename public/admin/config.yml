@@ -2,8 +2,8 @@ backend:
   name: github
   branch: main # 改为你的分支
   repo: Internet1235/fuwari # 改为你的仓库
-  site_domain: https://blog2.freezing.top/ # 改为你的域名
-  base_url: https://https://blog2.freezing.top/ # 改为你的URL
+  site_domain: blog2.freezing.top # 改为你的域名
+  base_url: https://blog2.freezing.top # 改为你的URL
   auth_endpoint: oauth
 
 media_folder: public/images # 文件将被存储在仓库中的位置
