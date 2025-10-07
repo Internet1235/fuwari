@@ -24,16 +24,15 @@ import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 
-import cloudflare from "@astrojs/cloudflare";
-
 import decapCmsOauth from "astro-decap-cms-oauth";
+
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://blog.freezing.top/",
   base: "/",
   output: 'server',
-  adapter: cloudflare(),
   trailingSlash: "always",
 
   integrations: [tailwind({
@@ -172,5 +171,5 @@ export default defineConfig({
       },
     },
 
-  adapter: cloudflare(),
+  adapter: netlify(),
 });
